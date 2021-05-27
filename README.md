@@ -26,6 +26,7 @@ MIMIC-IV: a free, publicly available “relational database containing real hosp
 
 - Full dataset size: 6.9 GB (.zip download from PhysioNet repository) - **REQUIRES CREDENTIALING**
 - Demo dataset: d_icd_diagnoses.csv (8.8 MB), diagnoses_icd_demo.csv (27MB)
+- Link to the demo data: https://bit.ly/3fi6y9L (since GitHub allows a maximum size of 25MB)
 
 ### Disclaimer:
 
