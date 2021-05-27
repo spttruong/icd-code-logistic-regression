@@ -22,7 +22,7 @@ codes)
 14. Extract resulting set of codiagnoses in data format of choice (for simplicity, I exported as .csv)
 
 ## Dataset
-MIMIC-IV: a free, publicly available “relational database containing real hospital stays for patients admitted to a tertiary academic medical center in Boston, MA” [MIMIC-IV Documentation](https://mimic-iv.mit.edu/docs/). MIMIC-IV is the fourth iteration of the MIMIC medical health data repository of over 40,000 patients admitted to the Beth Israel Deaconess Medical Center (BIDMC). It was completely de-identified as of MIMIC-III with the removal of patient identifiers in accordance with the Health Insurance Portability and Accountability Act (HIPAA).
+MIMIC-IV: a free, publicly available “relational database containing real hospital stays for patients admitted to a tertiary academic medical center in Boston, MA” [(MIMIC-IV Documentation)](https://mimic-iv.mit.edu/docs/). MIMIC-IV is the fourth iteration of the MIMIC medical health data repository of over 40,000 patients admitted to the Beth Israel Deaconess Medical Center (BIDMC). It was completely de-identified as of MIMIC-III with the removal of patient identifiers in accordance with the Health Insurance Portability and Accountability Act (HIPAA).
 
 - Full dataset size: 6.9 GB (.zip download from PhysioNet repository) - **REQUIRES CREDENTIALING**
 - Demo dataset: d_icd_diagnoses.csv (8.8 MB), diagnoses_icd_demo.csv (27MB)
@@ -31,7 +31,7 @@ MIMIC-IV: a free, publicly available “relational database containing real hosp
 
 The data provided in the data/ directory is a modified version of the original, which was previously downloaded from MIMIC-IV's data repository. This was done because this data set is semi-restricted. This means that while this dataset is open to all researchers, one must first go through a credentialing process via PhysioNet and signing a user agreement prior to being granted access.
 
-[How to gain access to the data](https://mimic-iv.mit.edu/docs/access/)
+For instructions on how to gain access to the data: https://mimic-iv.mit.edu/docs/access/
 
 The credentialing exists to educate the researcher on responsible data handling of patient health data and Health Insurance Portability and Accountability Act (HIPAA) regulations.
 
