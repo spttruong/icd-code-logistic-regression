@@ -27,6 +27,7 @@ MIMIC-IV: a free, publicly available “relational database containing real hosp
 - Full dataset size: 6.9 GB (.zip download from PhysioNet repository) - **REQUIRES CREDENTIALING**
 - Demo dataset: d_icd_diagnoses.csv (8.8 MB), diagnoses_icd_demo.csv (27MB)
 - Link to the demo data: https://bit.ly/3fi6y9L (since GitHub allows a maximum size of 25MB)
+  - have the `data/` and the Jupyter notebook within the same directory for the code to work  
 
 ### Disclaimer:
 
@@ -47,11 +48,12 @@ Macbook Pro (2013) - Dual-Core i7 (3 Ghz) | 8 GB 1600 HHz DDR3 | Intel HD Graphi
 - PySpark (3.0.1) - https://spark.apache.org/downloads.html
 
 ## Lessons Learned (Pros/Cons)
-- MIMIC-IV is a clean, highly organized, and well-documented dataset so researchers can hit the floor running. 
-- My code demo implementation is not very efficient or optimized. 
-- The accuracy of the model is highly dependent on a large dataset. 
-- Larger patient datasets contain more recorded occurrences of varied diagnoses while a smaller dataset may lack in this regard. 
-- A key limitation is the fact that the resulting co-diagnoses are representative only of the patient population of that specific medical center. For a more robust representation, the dataset needs to be bigger and include different populations.
+- MIMIC-IV is a clean, highly organized, and well-documented dataset so researchers can hit the floor running
+- My code demo implementation is not very efficient or optimized
+- The accuracy of the model is highly dependent on a large dataset
+- Larger patient datasets contain more recorded occurrences of varied diagnoses while a smaller dataset may lack in this regard
+- A key limitation is the fact that the resulting co-diagnoses are representative only of the patient population of that specific medical center
+  - For a more robust representation, the dataset needs to be bigger and include different populations
 
 ## References
 MIMIC-IV Dataset and Documentation:
