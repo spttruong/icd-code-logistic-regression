@@ -1,4 +1,6 @@
-# Case Study in Healthcare Using Pyspark Machine Learning and Logistical Regression to Extract Comorbidities / Co-diagnoses of Leukemia
+# Co-Diagnoses ICD Code Binary Classifier (Target disease Leukemia)
+
+To view notebook online: https://nbviewer.jupyter.org/github/spttruong/icd-code-logistic-regression/blob/main/project-demo.ipynb
 
 ## Problem Statement
 There exists a normalized set of codes used in electronic health records (EHR) for the sake of describing a patient’s ailments during a hospital visit. This is known as the International Coding Definitions (ICD) for diagnoses. ICD is the standard for electronically coded medical data. However, diagnosis of diseases and medical conditions are rarely one note. Many diagnoses and diseases are commonly found alongside others. These are called codiagnoses and comorbidities respectively. The goal of this project is to use machine learning on a dataset of EHR to predict a subset of potential codiagnoses for any specified disease. For demonstration, we will choose 'leukemia' as the target disease.
@@ -67,3 +69,7 @@ https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.ml.evaluat
 Overview of Leukemia and Common Treatments:
 
 https://www.mayoclinic.org/diseases-conditions/leukemia/diagnosis-treatment/drc-20374378
+
+Hosting of online readable Jupyter Notebooks:
+
+https://nbviewer.jupyter.org
